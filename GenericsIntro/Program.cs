@@ -1,17 +1,14 @@
 ﻿using System;
 
-namespace DegerVeReferansTipler
+namespace GenericsIntro
 {
     class Program
     {
         static void Main(string[] args)
         {
+            MyList<string> isimler = new MyList<string>();
+            isimler.Add("Berk");
             Console.WriteLine("Hello World!");
-            int sayi1 = 10;
-            int sayi2 = 30;
-            sayi1 = sayi2;
-            sayi2 = 65;
-
         }
     }
 }
